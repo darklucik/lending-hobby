@@ -1,0 +1,272 @@
+ @font-face {
+   font-family: Girloy;
+   src: url(../shrift/shrift/Gilroy-Light.otf);
+ }
+
+ @font-face {
+   font-family: Fredoka One;
+   src: url(../shrift/shrift/FredokaOne-Regular.ttf);
+ }
+
+ body {
+   font-family: Girloy;
+   height: 100vh;
+   margin: 150px;
+ }
+
+ /*
+
+.oval-frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 80%;
+  background: #01541a;
+  padding: 20px;
+}
+
+.oval-frame {
+  top: 650px;
+  width: 84px;
+  height: 18px;
+  left: 251px;
+  border-radius: 20px;
+}
+
+.group {
+  width: 700px;
+  height: 765px;
+  top: 169px;
+  left: 861px;
+  gap: 0px;
+
+
+}
+
+.colorful-text {
+  background-image: linear-gradient(to right, green, rgb(4, 35, 3));
+  background-clip: Make a Beautiful Garden with Your own Hand;
+  color: transparent;
+}
+
+section.hello {
+  background-image: url(../Group\ 1\ \(1\).png);
+  background-repeat: no-repeat;
+  background-position: top calcn(4.4vw + 55px);
+
+}
+
+section.hello {
+  background-image: url(../Vector.png);
+  background-repeat: no-repeat;
+  background-position: top calc(4.4vw + 55px);
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+  background-image: url(../cactus.png);
+  background-size: cover;
+  transition: background-image 0.3s ease;
+}
+
+.img:hover {
+  background-image: url(../white.png);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.text-container {
+  margin: 50px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  font-size: 18px;
+
+}
+
+.text-container {
+  margin-top: 0;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  font-weight: 400;
+  width: 353;
+  height: 79px;
+}
+
+ p {
+    font-size: 46px;
+  } */
+ .oval-frame {
+   display: flex;
+   align-items: start;
+   justify-content: start;
+   border-radius: 80%;
+   padding: 20px;
+ }
+
+ .inv {
+   font-family: Gilroy;
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 32px;
+   text-align: left;
+ }
+
+ .group-1 {
+   width: 650px;
+   height: 750px;
+
+
+   z-index: 0;
+ }
+
+
+ .green-text {
+   color: lightgreen;
+   font-family: Fredoka One;
+   font-size: 72px;
+   font-weight: 400;
+   line-height: 76px;
+   text-align: left;
+
+ }
+
+ .value {
+   font-size: 72px;
+   font-weight: 400;
+   line-height: 76px;
+   text-align: left;
+
+ }
+
+ .courseInfo {
+   display: flex;
+   position: relative;
+ }
+
+
+
+ .cactus {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  left: 450px;
+  padding: 12px;
+  background-color: aliceblue;
+  border: 1px solid white;
+  border-radius: 12px;
+
+
+
+  z-index: 1;
+ }
+
+ .shop_now {
+   border: solid 1px greenyellow;
+   background-color: #FFF;
+   padding: 10px;
+   border-radius: 30px;
+ }
+
+ .gray {
+   color: #707070;
+   font-family: Gilroy;
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 32px;
+   text-align: left;
+
+ }
+
+
+ .little {
+   display: flex;
+   margin-top: 50px;
+ }
+
+ .paragraphs {
+   width: 200px;
+   height: 150px;
+ }
+
+ #flower {
+   width: 130px;
+   height: 200px;
+ }
+
+ .hello {
+   margin-bottom: 20px;
+ }
+
+ .imgs {
+   gap: 20px;
+   display: flex;
+ }
+
+ #top-flower {
+   top: 0;
+   left: 0;
+   position: absolute;
+ }
+
+ .Professional-service {
+   /* background-color: rgb(124, 255, 124); */
+   display: flex;
+
+ }
+
+ .green-oval {
+   display: flex;
+   align-items: start;
+   justify-content: start;
+   border-radius: 80%;
+   padding: 20px;
+ }
+
+ .text-container {
+   position: relative;
+   left: 20px;
+
+ }
+
+ .navigation {
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .a-list {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 350px;
+   align-items: center;
+
+
+   a {
+     text-decoration: none;
+     color: black;
+     font-family: Girloy;
+   }
+ }
+
+ .loginBtn {
+  background-color: rgb(1, 206, 12);
+  border: none;
+  color: white;
+  border-radius: 12px;
+  padding: 10px ;
+
+ }
+
+ .last {
+  margin-bottom: 32px;
+ }
